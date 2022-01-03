@@ -1,0 +1,22 @@
+{
+  "name": "stop-watch",
+  "version": "1.0.0",
+  "description": "StopWatch is complete",
+  "main": "app.js",
+  "dependencies": {
+    "node-sass": "^7.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "keywords": [
+    "Stop",
+    "watch",
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "Wali Muhammad",
+  "license": "ISC"
+}

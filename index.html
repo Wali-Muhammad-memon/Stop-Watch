@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="shortcut icon" href="./img/fevi.png">
+</head>
+
+<body onload="display()">
+
+    <div class="splash">
+        <h1 class="fade-In">Stop Watch</h1>
+        <h3 class="fade-In">Created by: Wali Muhammad</h3>
+    </div>
+
+    <!-- <div class="main">
+        <div class="row">
+            <div class="col-1-of-3">
+                <h2 id="minutes">00</h2>
+            </div>
+            <div class="col-1-of-3">
+                <h2 id="seconds">00</h2>
+            </div>
+            <div class="col-1-of-3">
+                <h2 id="milliseconds">00</h2>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- <div class="headings">
+            <h2 id="minutes">00</h2>
+            <h2 id="seconds">00</h2>
+            <h2 id="milliseconds">00</h2>
+     
+    </div> -->
+
+
+
+<div id="result" class="now upper">
+   
+    <span id="minutes">00</span>:
+    <span id="seconds">00</span>:
+    <span id="milliseconds">00</span>
+   
+  </div>
+  <div id="buttons" class="now">
+    <button id="start" onclick="start()">
+      Start
+    </button>
+    <button id="stop" onclick="pause()">
+      Stop
+    </button>
+    <button id="reset" onclick="reset()">
+      Reset
+    </button>
+  </div>
+
+
+    <!-- <div class="buttons">
+        <button id="start" onclick="start()">Start</button>
+        <button onclick="pause()">Pause</button>
+        <button onclick="reset()">Reset</button>
+    </div> -->
+
+    <script src="./app.js"></script>
+</body>
+
+
+  <!-- <h1 id="minHead">00</h1>
+        <h1 id="secHead">00</h1>
+        <h1 id="miliHead">00</h1> -->
+</html>
